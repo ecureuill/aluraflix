@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class VideoNotFoundException extends Exception {
   public VideoNotFoundException(UUID id) {
-    super("Video " + id + "not found");
+    super("Video " + id + " not found");
   }
 
 }
